@@ -1,28 +1,37 @@
 import React from 'react';
-import logo from 'app/logo.svg';
-import 'app/App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import PageOne from 'app/pages/page_one';
+import PageTwo from 'app/pages/page_two'
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          {process.env.REACT_APP_EXAMPLE_VARIABLE}
-        </p>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <Router basename={process.env.REACT_APP_BASE_URL}>
+    <div>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/page_two">Alternative Page</Link>
+        </li>
+      </ul>
+
+      <hr />
+      <Switch>
+        <Route exact path="/">
+          <PageOne />
+        </Route>
+        <Route path="/page_two">
+          <PageTwo />
+        </Route>
+      </Switch>
     </div>
+  </Router>
   );
 }
 
