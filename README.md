@@ -26,4 +26,5 @@ Remember to prefix with `REACT_APP_`
 Create a new repository using this one as the template
 By default, you should adjust:
 * In `package.json`, the name & homepage
+* In `404.html` adjust the redirect URL
 * In `.env`, the REACT_APP_BASE_URL variable
