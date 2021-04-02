@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hosted-react-app/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/hosted-react-app/static/js/main.992649dd.chunk.js",
-    "main.js.map": "/hosted-react-app/static/js/main.992649dd.chunk.js.map",
+    "main.css": "/hosted-react-app/static/css/main.5f63ba26.chunk.css",
+    "main.js": "/hosted-react-app/static/js/main.6fe9e20b.chunk.js",
+    "main.js.map": "/hosted-react-app/static/js/main.6fe9e20b.chunk.js.map",
     "runtime-main.js": "/hosted-react-app/static/js/runtime-main.922d89c4.js",
     "runtime-main.js.map": "/hosted-react-app/static/js/runtime-main.922d89c4.js.map",
     "static/js/2.020cd165.chunk.js": "/hosted-react-app/static/js/2.020cd165.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.010b1023.chunk.js": "/hosted-react-app/static/js/3.010b1023.chunk.js",
     "static/js/3.010b1023.chunk.js.map": "/hosted-react-app/static/js/3.010b1023.chunk.js.map",
     "index.html": "/hosted-react-app/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/hosted-react-app/static/css/main.9d5b29c0.chunk.css.map",
+    "static/css/main.5f63ba26.chunk.css.map": "/hosted-react-app/static/css/main.5f63ba26.chunk.css.map",
     "static/js/2.020cd165.chunk.js.LICENSE.txt": "/hosted-react-app/static/js/2.020cd165.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/hosted-react-app/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.922d89c4.js",
     "static/js/2.020cd165.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.992649dd.chunk.js"
+    "static/css/main.5f63ba26.chunk.css",
+    "static/js/main.6fe9e20b.chunk.js"
   ]
 }
