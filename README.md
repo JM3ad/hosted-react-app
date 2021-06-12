@@ -28,3 +28,5 @@ By default, you should adjust:
 * In `package.json`, the name & homepage
 * In `404.html` adjust the redirect URL
 * In `.env`, the REACT_APP_BASE_URL variable
+* Update `manifest.json` to customise app-loading screen
+* Update logos/favicon under the public folder
